@@ -37,17 +37,17 @@ Esse trabalho pode ser separado em quatro partes principais:
 ### 3. Resumo do código
 O Código foi separado nos diversos modelos utilizados. Esses modelos são:
   
-  * __1. Modelo Baseline:__
+  * __1. Modelo Baseline:__ Usa o modelo de linha de base para gerar previsões baseado nos valores.
     
-  * __2. Modelo linear:__
-    
-  * __3. Floresta aleatória:__
+  * __2. Modelo linear:__ Utilisa regresão linear para gerar previsões baseado nos valores.
 
-  * __4. Árvore de decisão:__
+  * __3. Árvore de decisão:__ Usa o algoritmo de árvore de decisão para calcular os valores.
+  
+  * __4. Floresta aleatória:__ Utiliza o algoritmo de floresta aleatória, que é uma versão menos enviesada do Árvore de decisão, para calcular os valores.
     
-  * __5. Modelo K-NN:__ 
+  * __5. Modelo K-NN:__ Usa o bodelo regressivo de k números vizinhos para calcular os valores.
     
-  * __6. Modelo SVM:__
+  * __6. Modelo SVM:__ Utiliza Support Vector Machine (Máquina de vetores de suporte) para calcular os valores.
   
 ### 4. Agradecimentos:
 
