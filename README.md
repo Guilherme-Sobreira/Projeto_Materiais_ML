@@ -5,6 +5,10 @@ Guilda: Equipe Thunder
 
 Autores: Guilherme Caetano de Almeida Sobreira, Henrique Valente Nogueira
 
+## Separação de arquivos
+ * __Dataset:__ Possui o Dataset [1] utilizado no código do trabalho
+ * __Code:__ Contém o código completo do trabalho
+
 ## Sumário
 Esse trabalho pode ser separado em quatro partes principais:
 
@@ -18,36 +22,38 @@ Esse trabalho pode ser separado em quatro partes principais:
     
   * __5.__ Referências
 
-## 1. Intuito do trabalho
+### 1. Intuito do trabalho
    O código utiliza inúmeros algoritmos de Aprendizado de máquina para descobrir o índice de refração de um material específico. O índice de refração
    é a medida da fração da velocidade da luz no vácuo com a velocidade da luz em um material, definido por  $$I = \frac{c}{v_2}$$ , onde $$I$$ é o índice de refração,
    $$c$$ é a velocidade da luz no vácuo e $$v_2$$ é a velocidade da luz na substância que a luz atravessa. Para isso, foi usado um dataset [1] contendo diversas informações 
    sobre a estrutura de diversos materiais, como sua estrutura óptica, estrutura cristalina, índice de disperção e quantidade de hidrogênios para treino. Com esses dados,
    ele roda testes com esses algoritmos e gera gráfico comparando o índice de refração previsto e o real.
 
-## 2. Motivações
+### 2. Motivações
   O índice de refração é um valor extremamente importante no desenvolvimento de dispositivos ópticos, como lentes, além do estudo de fenômenos físicos, químicos
   e biológicos. No entanto, esse valor ainda é dependente de muitas análises empíricas e testes para descobrir a velocidade que a luz atravessa o material. Ou seja, usar 
   Aprendizado de máquina para poder estimar esse valor sem ter que fazer a análise empírica pode ser a chave para desenvolvimentos tecnológicos no futuro.
 
-## 3. Resumo do código
+### 3. Resumo do código
 O Código foi separado nos diversos modelos utilizados. Esses modelos são:
   
-  * __1.__ Modelo Baseline:
+  * __1. Modelo Baseline:__
     
-  * __2.__ Modelo linear:
+  * __2. Modelo linear:__
     
-  * __3.__ Floresta aleatória:
+  * __3. Floresta aleatória:__
+
+  * __4. Árvore de decisão:__
     
-  * __4.__ Modelo K-NN:
+  * __5. Modelo K-NN:__ 
     
-  * __5.__ Modelo SVM:
+  * __6. Modelo SVM:__
   
-## Agradecimentos:
+### 4. Agradecimentos:
 
 Gostaríamos de agradecer ao professor Daniel Roberto Cassar pelas aulas oferecidas durante a disciplina e pelos auxílios com o trabalho
 
-## Referências:
+### 5. Referências:
 
 [1] Dataset Origin: https://www.kaggle.com/datasets/vinven7/comprehensive-database-of-minerals?resource=download
 
