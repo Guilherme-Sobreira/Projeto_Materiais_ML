@@ -36,19 +36,23 @@ Esse trabalho pode ser separado em quatro partes principais:
 
 ### 3. Resumo do código
 O dataframe foi extraído de uma base didática de dados a respeito de mineralogia. Cada coluna está relacionada a dados físicos ou químicos dos minerais, e suas informações podem ser consultadas na referência [1].
-O Código foi separado nos diversos modelos utilizados e pode ser acessado na pasta 'Código'. Nele, diferentes modelos serão testados para analisar a eficiência em prever os índices de refração. Esses modelos são:
+O Código foi separado nos diversos modelos utilizados e pode ser acessado na pasta 'Código'.
+Primeiramente, foi feito uma sequência de diversos tratamento de dados, para gerar valores melhores e com menos ruído para trabalhar.
+Após isso, diferentes modelos serão testados para analisar a eficiência em prever os índices de refração. Esses modelos são:
   
   * __1. Modelo Baseline:__ Usa o modelo de linha de base para gerar previsões baseado nos valores.
     
   * __2. Modelo linear:__ Utilisa regresão linear para gerar previsões baseado nos valores.
-
-  * __3. Árvore de decisão:__ Usa o algoritmo de árvore de decisão para calcular os valores.
   
-  * __4. Floresta aleatória:__ Utiliza o algoritmo de floresta aleatória, que é uma versão menos enviesada do Árvore de decisão, para calcular os valores.
+  * __3. Floresta aleatória:__ Utiliza o algoritmo de floresta aleatória, que é uma versão menos enviesada do Árvore de decisão, para calcular os valores.
+
+  * __4. Árvore de decisão:__ Usa o algoritmo de árvore de decisão para calcular os valores.
     
   * __5. Modelo K-NN:__ Usa o bodelo regressivo de k números vizinhos para calcular os valores.
     
   * __6. Modelo SVM:__ Utiliza Support Vector Machine (Máquina de vetores de suporte) para calcular os valores.
+
+Por último, foi adicionado modelos de hiperparâmetros melhorar alguns algoritmos específicos (Pelo uso de algumas funções e valores não atualizados, o código dá um aviso nos hiperparâmetros do Floresta aleatória, mas ele roda com valores ótimos de RMSE)
   
 ### 4. Agradecimentos:
 
