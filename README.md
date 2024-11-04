@@ -56,5 +56,4 @@ Gostaríamos de agradecer ao professor Daniel Roberto Cassar pelas aulas ofereci
 ### 5. Referências:
 
 [1] Dataset Origin: https://www.kaggle.com/datasets/vinven7/comprehensive-database-of-minerals?resource=download
-
-
+[2] Material didático - ATP - 203 (Aprendizado de Máquina) - Ministrada pelo professor Daniel Cassar.
