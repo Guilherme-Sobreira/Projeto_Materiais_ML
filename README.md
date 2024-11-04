@@ -35,6 +35,7 @@ Esse trabalho pode ser separado em quatro partes principais:
   Aprendizado de máquina para poder estimar esse valor sem ter que fazer a análise empírica pode ser a chave para desenvolvimentos tecnológicos no futuro.
 
 ### 3. Resumo do código
+O dataframe foi extraído de uma base didática de dados a respeito de mineralogia. Cada coluna está relacionada a dados físicos ou químicos dos minerais, e suas informações podem ser consultadas na referência [1].
 O Código foi separado nos diversos modelos utilizados. Esses modelos são:
   
   * __1. Modelo Baseline:__ Usa o modelo de linha de base para gerar previsões baseado nos valores.
