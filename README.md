@@ -43,7 +43,7 @@ O dataframe foi extraído de uma base didática de dados a respeito de mineralog
    * __2.1. Nome:__ Nome do material
    * __2.2. Crystal Structure:__ Indica a estrutura que as moléculas estâo arranjadas no espaço
    * __2.3. Mohs Hardness:__ Escala de dureza dos minerais, ou seja, o quanto esses materiais são resistentes à riscagem.
-   * __2.4. Diaphaneity:__ Indica a capacidade da luz passar pelo mineral, dividindo em materiais opacos, translúcidos e transparentes.
+   * __2.4. Diaphaneity:__ Indica a capacidade da luz passar pelo mineral, sendo uma escala de dados categóricos e ordinais de transparência já traduzida para dados numéricos. 
    * __2.5. Specific Gravity:__ Valor da razão entre a densidade do mineral e a densidade da água.
    * __2.6. Optical:__ Define como as propiedades ópticas mudam de acordo com a direcão observada. Podem ser isotrópicas, biaxiais ou anisotrópicas.
    * __2.7. Refractive Index:__ Valor da razão entre a velocidade da luz no material e a velocidade da luz no vácuo.
