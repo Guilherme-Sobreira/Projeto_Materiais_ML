@@ -48,8 +48,8 @@ O dataframe foi extraído de uma base didática de dados a respeito de mineralog
    * __2.6. Optical:__ Define como as propiedades ópticas mudam de acordo com a direcão observada. Podem ser isotrópicas, biaxiais ou anisotrópicas.
    * __2.7. Refractive Index:__ Valor da razão entre a velocidade da luz no material e a velocidade da luz no vácuo.
    * __2.8. Dispersion:__ Indica a mudança do índice de refração de um material em função da frequência da luz aplicada.
-   * __2.9. Elementos:__ Mostra a quantidade de átomos/grupos funcionais de um elemento para cada material. Há uma coluna para cada elemento da tabela periódica e para alguns grupos.
-   * __2.10. Count:__ Quantidade de átomos em uma unidade do material
+   * __2.9. Elementos:__ Mostra a quantidade de átomos/grupos funcionais de um elemento na fórmula do mineral. Há uma coluna para cada elemento da tabela periódica e para alguns grupos.
+   * __2.10. Count:__ Quantidade de átomos na fórmula do mineral.
    * __2.11. Molar Mass:__ Valor da massa molar de cada material.
    * __2.12. Molar Volume:__ Valor do volume molar de cada material.
    * __2.13. Calculated Density:__ Valor da razão entre a massa molar e o volume em massa.
