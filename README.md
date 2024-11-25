@@ -61,10 +61,10 @@ Após isso, diferentes modelos serão testados para analisar a eficiência em pr
   * __1. Modelo Baseline:__ Usa o modelo de linha de base para gerar previsões baseado nos valores.
     
   * __2. Modelo linear:__ Utiliza regressão linear para gerar previsões baseado nos valores.
-  
-  * __3. Floresta aleatória:__ Utiliza o algoritmo de floresta aleatória, para calcular os valores.
 
-  * __4. Árvore de decisão:__ Usa o algoritmo de árvore de decisão para calcular os valores.
+  * __3. Árvore de decisão:__ Usa o algoritmo de árvore de decisão para calcular os valores.
+  
+  * __4. Floresta aleatória:__ Utiliza o algoritmo de floresta aleatória, para calcular os valores.
     
   * __5. Modelo K-NN:__ Usa o modelo regressivo de k-números vizinhos para calcular os valores.
     
