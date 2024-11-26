@@ -39,7 +39,7 @@ O notebook contém a
 O dataframe foi extraído de uma base didática de dados sobre mineralogia. Cada coluna está relacionada a dados físicos ou químicos dos minerais, e suas informações podem ser consultadas em detalhes na referência [1]. Como um leve resumo, o DataFrame é separado em:
 
  * __1. `index`:__ Valor de index para cada mineral
- * __2. `column`:__ Coluna para cada classificassão do material. As colunas estão organizadas da seguinte forma:
+ * __2. `columns`:__ Colunas para cada classificassão do material. Elas estão organizadas da seguinte forma:
    * __2.1. Nome:__ Nome do material
    * __2.2. Crystal Structure:__ Indica a estrutura que as moléculas estâo arranjadas no espaço
    * __2.3. Mohs Hardness:__ Escala de dureza dos minerais, ou seja, o quanto esses materiais são resistentes à riscagem.
