@@ -70,7 +70,7 @@ Após isso, diferentes modelos serão testados para analisar a eficiência em pr
     
   * __6. Modelo SVM:__ Utiliza Support Vector Machine (Máquina de vetores de suporte) para calcular os valores.
 
-Por último, foi adicionado modelos de hiperparâmetros melhorar alguns algoritmos específicos. Mais especificamente, são usados
+Por último, foi adicionado modelos de hiperparâmetros melhorar alguns algoritmos específicos. Mais especificamente, há a aplicação no algoritmo de SVM e no algoritmo de Floresta aleatória.
   
 ### 4. Agradecimentos:
 
