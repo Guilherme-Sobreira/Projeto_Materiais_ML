@@ -24,9 +24,9 @@ Esse trabalho pode ser separado em quatro partes principais:
 
 ### 1. Intuito do trabalho
    O código utiliza inúmeros algoritmos de Aprendizado de máquina para descobrir o índice de refração de um material específico. O índice de refração
-   é a medida da fração da velocidade da luz no vácuo com a velocidade da luz em um material, definido por  $$I = \frac{c}{v_2}$$ , onde $$I$$ é o índice de refração,
-   $$c$$ é a velocidade da luz no vácuo e $$v_2$$ é a velocidade da luz na substância que a luz atravessa. Para isso, foi usado um dataset [1] contendo diversas informações 
-   sobre a estrutura de diversos materiais, como sua estrutura óptica, estrutura cristalina, índice de dispersão e quantidade de hidrogênios para treino. Com esses dados,
+   é a medida da fração da velocidade da luz no vácuo em relação à velocidade da luz em um material, definido por  $$I = \frac{c}{v_2}$$ , onde $$I$$ é o índice de refração,
+   $$c$$ é a velocidade da luz no vácuo e $$v_2$$ é a velocidade da luz na substância que a luz atravessa. Para isso, foi utilizado um dataset [1] contendo diversas informações 
+   sobre os minerais, como sua estrutura óptica, estrutura cristalina, índice de dispersão e quantidade de hidrogênios para treinamento. Com esses dados,
    ele roda testes com esses algoritmos e gera gráfico comparando o índice de refração previsto e o real.
 
 ### 2. Motivações
@@ -36,19 +36,19 @@ Esse trabalho pode ser separado em quatro partes principais:
 
 ### 3. Resumo do notebook
 O notebook contém a 
-O dataframe foi extraído de uma base didática de dados a respeito de mineralogia. Cada coluna está relacionada a dados físicos ou químicos dos minerais, e suas informações podem ser consultadas em detalhes na referência [1]. Como um leve resumo, o DataFrame é separado em:
+O dataframe foi extraído de uma base didática de dados sobre mineralogia. Cada coluna está relacionada a dados físicos ou químicos dos minerais, e suas informações podem ser consultadas em detalhes na referência [1]. Como um leve resumo, o DataFrame é separado em:
 
  * __1. `index`:__ Valor de index para cada mineral
- * __2. `column`:__ Coluna para cada classificassão do material. As colunas estão separadas em:
+ * __2. `column`:__ Coluna para cada classificassão do material. As colunas estão organizadas da seguinte forma:
    * __2.1. Nome:__ Nome do material
    * __2.2. Crystal Structure:__ Indica a estrutura que as moléculas estâo arranjadas no espaço
    * __2.3. Mohs Hardness:__ Escala de dureza dos minerais, ou seja, o quanto esses materiais são resistentes à riscagem.
    * __2.4. Diaphaneity:__ Indica a capacidade da luz passar pelo mineral, sendo uma escala de dados categóricos e ordinais de transparência já traduzida para dados numéricos. 
    * __2.5. Specific Gravity:__ Valor da razão entre a densidade do mineral e a densidade da água.
-   * __2.6. Optical:__ Define como as propiedades ópticas mudam de acordo com a direcão observada. Podem ser isotrópicas, biaxiais ou anisotrópicas.
+   * __2.6. Optical:__ Define como as propiedades ópticas mudam de acordo com a direcão observada.
    * __2.7. Refractive Index:__ Valor da razão entre a velocidade da luz no material e a velocidade da luz no vácuo.
    * __2.8. Dispersion:__ Indica a mudança do índice de refração de um material em função da frequência da luz aplicada.
-   * __2.9. Elementos:__ Mostra a quantidade de átomos/grupos funcionais de um elemento na fórmula do mineral. Há uma coluna para cada elemento da tabela periódica e para alguns grupos funcionais.
+   * __2.9. Elementos:__ Mostra a quantidade de átomos/grupos funcionais na fórmula do mineral. Há uma coluna para cada elemento da tabela periódica e para alguns grupos funcionais.
    * __2.10. Count:__ Quantidade de átomos na fórmula do mineral.
    * __2.11. Molar Mass:__ Valor da massa molar de cada material.
    * __2.12. Molar Volume:__ Valor do volume molar de cada material.
